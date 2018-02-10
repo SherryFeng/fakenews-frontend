@@ -5,7 +5,7 @@
   "version": "0.1",
 
   // Recommended
-  "default_locale": "en",
+  //"default_locale": "en",
   "description": "Chrome Extension to hunt down fake news",
   //"icons": {...},
 
@@ -23,9 +23,9 @@
   "automation": ...,
 */
   "background": {
-    "scripts":["contentscripts.js"],
+    "scripts": ["contentscripts.js"],
     "persistent": false
-  },
+  }
 /*
   "background_page": ...,
   "chrome_settings_overrides": {...},
