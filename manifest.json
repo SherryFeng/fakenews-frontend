@@ -11,19 +11,22 @@
 
   // Pick one (or none)
 
-  "page_action": {
+  "browser_action": {
     "default_title": "Fake News Extension",      // optional; shown in tooltip
     "default_popup": "index.html"
   },
 
+/*
   // Optional
   "action": ...,
   "author": ...,
   "automation": ...,
+*/
   "background": {
-    // Recommended
+    "scripts":["contentscripts.js"],
     "persistent": false
   },
+/*
   "background_page": ...,
   "chrome_settings_overrides": {...},
   "chrome_ui_overrides": {
@@ -84,4 +87,5 @@
   "update_url": "http://path/to/updateInfo.xml",
   "version_name": "aString",
   "web_accessible_resources": [...]
+*/
 }
