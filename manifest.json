@@ -7,7 +7,9 @@
   // Recommended
   //"default_locale": "en",
   "description": "Chrome Extension to hunt down fake news",
-  //"icons": {...},
+  "icons": {
+    "128": "newslogo.png"
+  },
 
   // Pick one (or none)
 
