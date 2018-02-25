@@ -26,13 +26,18 @@
     }
   ],
 
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
   "browser_specific_settings": {
     "edge": {
       "permissions": [
         "tabs"
       ]
     },
-    
+
     "chrome": {
       "permissions": [
         "activeTab"
