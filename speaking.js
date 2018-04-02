@@ -1,4 +1,4 @@
-var para = document.createElement("P");
+var para = document.createElement("p");
 var t = document.createTextNode("This is a paragraph.");
 para.appendChild(t);
 document.body.appendChild(para);

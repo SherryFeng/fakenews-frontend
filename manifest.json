@@ -40,7 +40,12 @@
 
     "chrome": {
       "permissions": [
-        "activeTab"
+        "activeTab",
+        "tabs",
+        "notifications",
+        "http://*/",
+        "https://*/",
+        "*://*/*"
       ]
     }
   }
