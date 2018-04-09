@@ -13,6 +13,7 @@ function click(e) {
   chrome.tabs.executeScript(null,
       {code:"document.body.style.backgroundColor='" + e.target.id + "'"});
   //window.close();
+  console.log("clicked");
 }
 
 document.addEventListener('DOMContentLoaded', function () {

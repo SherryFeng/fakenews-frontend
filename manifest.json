@@ -34,7 +34,8 @@
   "browser_specific_settings": {
     "edge": {
       "permissions": [
-        "tabs"
+        "tabs",
+        "activeTab"
       ]
     },
 
