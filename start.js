@@ -1,18 +1,8 @@
 var start = document.getElementById('start');
 
-var readCode = `
-var pTags = document.getElementsByTagName("P");
-var i;
-var total = "";
-for(i = 0; i < pTags.length; i++) {
-  total += pTags[i].textContent;
-}
-chrome.storage.sync.set({page_content: total});
-`;
-
 start.onclick = function(element) {
       chrome.tabs.executeScript(
-          {code: readCode},
+          {file: 'reader.js'},
           load);
 };
 

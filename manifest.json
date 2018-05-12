@@ -31,24 +31,5 @@
     "persistent": false
   },
 
-  "permissions": ["activeTab", "storage"],
-
-  "browser_specific_settings": {
-    "edge": {
-      "permissions": [
-        "tabs"
-      ]
-    },
-
-    "chrome": {
-      "permissions": [
-        "activeTab",
-        "storage",
-        "notifications",
-        "http://*/",
-        "https://*/",
-        "*://*/*"
-      ]
-    }
-  }
+  "permissions": ["activeTab", "storage"]
 }
