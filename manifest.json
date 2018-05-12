@@ -31,6 +31,8 @@
     "persistent": false
   },
 
+  "permissions": ["activeTab", "storage"],
+
   "browser_specific_settings": {
     "edge": {
       "permissions": [
@@ -41,7 +43,7 @@
     "chrome": {
       "permissions": [
         "activeTab",
-        "tabs",
+        "storage",
         "notifications",
         "http://*/",
         "https://*/",
